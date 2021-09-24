@@ -1,0 +1,294 @@
+[Root]
+Most Recent Package=Paquete de instalación estándar 1
+
+
+[Package|Paquete de instalación estándar 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=\\tsclient\D\Sistemas SOFT\Medicina del Trabajo\Instalador
+
+[Package|Paquete de instalación estándar 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación estándar 1|Files Found]
+u25dts.dll=C:\WINDOWS\Crystal\u25dts.dll
+
+[Package|Paquete de instalación estándar 1|Files Released]
+
+[Package|Paquete de instalación estándar 1|Missing Dependency Information]
+C:\WINDOWS\system32\ssdw3bo.ocx=
+C:\WINDOWS\system32\ValeText.ocx=
+C:\WINDOWS\system32\SSCALA32.OCX=
+C:\WINDOWS\system32\ssa3d30.ocx=
+C:\WINDOWS\system32\odbcconf.dll=
+C:\Sheridan\ActiveListBar\SSLstBar.ocx=
+C:\Sheridan\ActiveToolBars\sstbars.ocx=
+
+[Package|Paquete de instalación estándar 1|Out-of-Date Dependency Information]
+
+[Package|Paquete de instalación estándar 1|Files Added]
+C:\Sheridan\ActiveListBar\SSLstBar.ocx=
+C:\Sheridan\ActiveToolBars\sstbars.ocx=
+C:\Sheridan\SSCalWdg\SSCALB32.OCX=
+C:\Sheridan\SSDatWd3\ssdw3a32.ocx=
+C:\Sheridan\SSDatWd3\ssdw3ao.ocx=
+C:\Sheridan\SSDatWd3\ssdw3b32.ocx=
+C:\Sheridan\SSDesWdg\ssdock32.ocx=
+C:\Sheridan\SSDesWdg\SSform32.ocx=
+
+[Package|Paquete de instalación estándar 1|Files Removed]
+
+[Package|Paquete de instalación estándar 1|Files In Project]
+\\tsclient\D\Sistemas SOFT\Medicina del Trabajo\MedTrabajo.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\WINDOWS\system32\odbcconf.dll=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\STDFTES.DLL=Yes
+C:\WINDOWS\system32\ssa3d30.ocx=Yes
+C:\WINDOWS\system32\SSCALA32.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\ADODCES.DLL=Yes
+C:\WINDOWS\system32\ValeText.ocx=Yes
+C:\WINDOWS\system32\SSTree.ocx=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINDOWS\system32\ssdw3bo.ocx=Yes
+C:\Sheridan\SSDesWdg\sstabs32.ocx=Yes
+C:\WINDOWS\system32\mfc42.dll=Yes
+C:\WINDOWS\system32\crystl32.ocx=Yes
+C:\WINDOWS\system32\crpe32.dll=Yes
+C:\WINDOWS\system32\IMPLODE.DLL=Yes
+C:\WINDOWS\system32\ccsdk32.dll=Yes
+C:\WINDOWS\system32\crpaig32.dll=Yes
+C:\WINDOWS\system32\crxlat32.dll=Yes
+C:\WINDOWS\system32\p2bact.dll=Yes
+C:\WINDOWS\system32\p2bbde.dll=Yes
+C:\WINDOWS\system32\p2bbnd.dll=Yes
+C:\WINDOWS\system32\p2bbtrv.dll=Yes
+C:\WINDOWS\system32\p2bdao.dll=Yes
+C:\WINDOWS\system32\p2bxbse.dll=Yes
+C:\WINDOWS\system32\p2ctbtrv.dll=Yes
+C:\WINDOWS\system32\p2ctdao.dll=Yes
+C:\WINDOWS\system32\p2iract.dll=Yes
+C:\WINDOWS\system32\p2irdao.dll=Yes
+C:\WINDOWS\system32\p2ixbse.dll=Yes
+C:\WINDOWS\system32\p2lodbc.dll=Yes
+C:\WINDOWS\system32\P2OESBSE.DLL=Yes
+C:\WINDOWS\system32\p2sacl.dll=Yes
+C:\WINDOWS\system32\P2SDB2.DLL=Yes
+C:\WINDOWS\system32\p2sevt.dll=Yes
+C:\WINDOWS\system32\p2sexsr.dll=Yes
+C:\WINDOWS\system32\P2SIFMX.DLL=Yes
+C:\WINDOWS\system32\p2smapi.dll=Yes
+C:\WINDOWS\system32\p2smon.dll=Yes
+C:\WINDOWS\system32\p2sodbc.dll=Yes
+C:\WINDOWS\system32\p2sora7.dll=Yes
+C:\WINDOWS\system32\P2SOUTLK.DLL=Yes
+C:\WINDOWS\system32\p2srepl.dll=Yes
+C:\WINDOWS\system32\p2ssql.dll=Yes
+C:\WINDOWS\system32\p2ssyb10.dll=Yes
+C:\WINDOWS\system32\p2strack.dll=Yes
+C:\WINDOWS\system32\p2swblg.dll=Yes
+C:\WINDOWS\system32\u2ddisk.dll=Yes
+C:\WINDOWS\system32\u2dmapi.dll=Yes
+C:\WINDOWS\system32\u2dnotes.dll=Yes
+C:\WINDOWS\system32\u2dpost.dll=Yes
+C:\WINDOWS\system32\u2dvim.dll=Yes
+C:\WINDOWS\system32\u2fcr.dll=Yes
+C:\WINDOWS\system32\u2fdif.dll=Yes
+C:\WINDOWS\system32\u2fhtml.dll=Yes
+C:\WINDOWS\system32\u2fodbc.dll=Yes
+C:\WINDOWS\Crystal\u2frdef.dll=Yes
+C:\WINDOWS\system32\u2frec.dll=Yes
+C:\WINDOWS\system32\u2frtf.dll=Yes
+C:\WINDOWS\system32\u2fsepv.dll=Yes
+C:\WINDOWS\system32\u2ftext.dll=Yes
+C:\WINDOWS\system32\u2fwks.dll=Yes
+C:\WINDOWS\system32\u2fwordw.dll=Yes
+C:\WINDOWS\system32\u2fxls.dll=Yes
+C:\WINDOWS\Crystal\u25dts.dll=Yes
+C:\WINDOWS\Crystal\u25store.dll=Yes
+C:\WINDOWS\Crystal\u25total.dll=Yes
+C:\WINDOWS\system32\u2l2000.dll=Yes
+C:\WINDOWS\Crystal\u2lbar.dll=Yes
+C:\WINDOWS\system32\u2lcom.dll=Yes
+C:\WINDOWS\Crystal\u2ldts.dll=Yes
+C:\WINDOWS\Crystal\u2lesbse.dll=Yes
+C:\WINDOWS\Crystal\u2lexch.dll=Yes
+C:\WINDOWS\Crystal\u2lfinra.dll=Yes
+C:\WINDOWS\Crystal\u2lsamp1.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Sheridan\ActiveListBar\SSLstBar.ocx=Yes
+C:\Sheridan\ActiveToolBars\sstbars.ocx=Yes
+C:\Sheridan\SSCalWdg\SSCALB32.OCX=Yes
+C:\Sheridan\SSDatWd3\ssdw3a32.ocx=Yes
+C:\Sheridan\SSDatWd3\ssdw3ao.ocx=Yes
+C:\Sheridan\SSDatWd3\ssr2c.dll=Yes
+C:\Sheridan\SSDatWd3\ssdw3b32.ocx=Yes
+C:\Sheridan\SSDatWd3\ssmedt32.dll=Yes
+C:\Sheridan\SSDatWd3\ssprn32.dll=Yes
+C:\Sheridan\SSDesWdg\ssdock32.ocx=Yes
+C:\Sheridan\SSDesWdg\SSform32.ocx=Yes
+
+[Package|Paquete de instalación estándar 1|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Install Locations]
+\\tsclient\D\Sistemas SOFT\Medicina del Trabajo\MedTrabajo.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbcconf.dll=$(AppPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\STDFTES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\ssa3d30.ocx=$(WinSysPath)
+C:\WINDOWS\system32\SSCALA32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\ADODCES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\ValeText.ocx=$(WinSysPath)
+C:\WINDOWS\system32\SSTree.ocx=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\ssdw3bo.ocx=$(WinSysPath)
+C:\Sheridan\SSDesWdg\sstabs32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mfc42.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\crystl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\crpe32.dll=$(WinSysPath)
+C:\WINDOWS\system32\IMPLODE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\ccsdk32.dll=$(WinSysPath)
+C:\WINDOWS\system32\crpaig32.dll=$(WinSysPath)
+C:\WINDOWS\system32\crxlat32.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2bact.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2bbde.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2bbnd.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2bbtrv.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2bdao.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2bxbse.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2ctbtrv.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2ctdao.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2iract.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2irdao.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2ixbse.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2lodbc.dll=$(WinSysPath)
+C:\WINDOWS\system32\P2OESBSE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\p2sacl.dll=$(WinSysPath)
+C:\WINDOWS\system32\P2SDB2.DLL=$(WinSysPath)
+C:\WINDOWS\system32\p2sevt.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2sexsr.dll=$(WinSysPath)
+C:\WINDOWS\system32\P2SIFMX.DLL=$(WinSysPath)
+C:\WINDOWS\system32\p2smapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2smon.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2sodbc.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2sora7.dll=$(WinSysPath)
+C:\WINDOWS\system32\P2SOUTLK.DLL=$(WinSysPath)
+C:\WINDOWS\system32\p2srepl.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2ssql.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2ssyb10.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2strack.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2swblg.dll=$(WinSysPath)
+C:\WINDOWS\system32\u2ddisk.dll=$(WinSysPath)
+C:\WINDOWS\system32\u2dmapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\u2dnotes.dll=$(WinSysPath)
+C:\WINDOWS\system32\u2dpost.dll=$(WinSysPath)
+C:\WINDOWS\system32\u2dvim.dll=$(WinSysPath)
+C:\WINDOWS\system32\u2fcr.dll=$(WinSysPath)
+C:\WINDOWS\system32\u2fdif.dll=$(WinSysPath)
+C:\WINDOWS\system32\u2fhtml.dll=$(WinSysPath)
+C:\WINDOWS\system32\u2fodbc.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2frdef.dll=$(AppPath)
+C:\WINDOWS\system32\u2frec.dll=$(WinSysPath)
+C:\WINDOWS\system32\u2frtf.dll=$(WinSysPath)
+C:\WINDOWS\system32\u2fsepv.dll=$(WinSysPath)
+C:\WINDOWS\system32\u2ftext.dll=$(WinSysPath)
+C:\WINDOWS\system32\u2fwks.dll=$(WinSysPath)
+C:\WINDOWS\system32\u2fwordw.dll=$(WinSysPath)
+C:\WINDOWS\system32\u2fxls.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u25dts.dll=$(AppPath)
+C:\WINDOWS\Crystal\u25store.dll=$(AppPath)
+C:\WINDOWS\Crystal\u25total.dll=$(AppPath)
+C:\WINDOWS\system32\u2l2000.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2lbar.dll=$(AppPath)
+C:\WINDOWS\system32\u2lcom.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ldts.dll=$(AppPath)
+C:\WINDOWS\Crystal\u2lesbse.dll=$(AppPath)
+C:\WINDOWS\Crystal\u2lexch.dll=$(AppPath)
+C:\WINDOWS\Crystal\u2lfinra.dll=$(AppPath)
+C:\WINDOWS\Crystal\u2lsamp1.dll=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Sheridan\ActiveListBar\SSLstBar.ocx=$(WinSysPath)
+C:\Sheridan\ActiveToolBars\sstbars.ocx=$(WinSysPath)
+C:\Sheridan\SSCalWdg\SSCALB32.OCX=$(WinSysPath)
+C:\Sheridan\SSDatWd3\ssdw3a32.ocx=$(WinSysPath)
+C:\Sheridan\SSDatWd3\ssdw3ao.ocx=$(WinSysPath)
+C:\Sheridan\SSDatWd3\ssr2c.dll=$(WinSysPath)
+C:\Sheridan\SSDatWd3\ssdw3b32.ocx=$(WinSysPath)
+C:\Sheridan\SSDatWd3\ssmedt32.dll=$(WinSysPath)
+C:\Sheridan\SSDatWd3\ssprn32.dll=$(WinSysPath)
+C:\Sheridan\SSDesWdg\ssdock32.ocx=$(WinSysPath)
+C:\Sheridan\SSDesWdg\SSform32.ocx=$(WinSysPath)
+
+[Package|Paquete de instalación estándar 1|Configure Shared Files]
+Applicable=Yes
+\\tsclient\D\Sistemas SOFT\Medicina del Trabajo\MedTrabajo.exe=No
+C:\WINDOWS\system32\odbcconf.dll=No
+C:\WINDOWS\Crystal\u2frdef.dll=No
+C:\WINDOWS\Crystal\u25dts.dll=No
+C:\WINDOWS\Crystal\u25store.dll=No
+C:\WINDOWS\Crystal\u25total.dll=No
+C:\WINDOWS\Crystal\u2lbar.dll=No
+C:\WINDOWS\Crystal\u2ldts.dll=No
+C:\WINDOWS\Crystal\u2lesbse.dll=No
+C:\WINDOWS\Crystal\u2lexch.dll=No
+C:\WINDOWS\Crystal\u2lfinra.dll=No
+C:\WINDOWS\Crystal\u2lsamp1.dll=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Paquete de instalación estándar 1|Distribution]
+Type=single
+Size=
+Title=Medicina del Trabajo
+
+[Package|Paquete de instalación estándar 1|IconGroups]
+Group0=Medicina del Trabajo
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 1|Medicina del Trabajo]
+Icon1=MedTrabajo.exe
+Title1=Medicina del Trabajo
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación estándar 1|Package]
+PackageFolder=\\tsclient\D\Sistemas SOFT\Medicina del Trabajo\Instalador
+ProjectFolder=\\tsclient\D\Sistemas SOFT\Medicina del Trabajo
+ServerSideCab=
+File1=\\tsclient\D\Sistemas SOFT\Medicina del Trabajo\Instalador\setup.exe
+File2=\\tsclient\D\Sistemas SOFT\Medicina del Trabajo\Instalador\Setup.Lst
+File3=\\tsclient\D\Sistemas SOFT\Medicina del Trabajo\Instalador\MedTrabajo.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

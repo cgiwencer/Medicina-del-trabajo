@@ -1,0 +1,7 @@
+TaUsusc = "CREATE TABLE texamenes" & vusuariot & "(" _
+& "NueId int(4) DEFAULT NULL, " _
+& "NueUni varchar(250) DEFAULT NULL, " _
+& "NueEmp varchar(250) DEFAULT NULL, " _
+& "NueTip varchar(100) DEFAULT NULL, " _
+& "NueEst int(1) DEFAULT NULL)"
+Cn.Execute TaUsusc

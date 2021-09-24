@@ -1,0 +1,164 @@
+[Bootstrap]
+SetupTitle=Instalar
+SetupText=Copiando archivos, espere.
+CabFile=MedTrabajo.CAB
+Spawn=Setup1.exe
+Uninstal=st6unst.exe
+TmpDir=msftqws.pdw
+Cabs=1
+
+[Bootstrap Files]
+File1=@VB6STKIT.DLL,$(WinSysPathSysFile),,,7/14/00 11:00:00 PM,101888,6.0.84.50
+File2=@OLEPRO32.DLL,$(WinSysPathSysFile),$(DLLSelfRegister),,3/7/99 11:00:00 PM,164112,5.0.4275.1
+File3=@COMCAT.DLL,$(WinSysPathSysFile),$(DLLSelfRegister),,5/31/98 11:00:00 PM,22288,4.71.1460.1
+File4=@VB6ES.DLL,$(WinSysPath),,$(Shared),10/1/00 11:00:00 PM,119568,6.0.89.88
+File5=@STDOLE2.TLB,$(WinSysPathSysFile),$(TLBRegister),,6/2/99 11:00:00 PM,17920,2.40.4275.1
+File6=@ASYCFILT.DLL,$(WinSysPathSysFile),,,3/7/99 11:00:00 PM,147728,2.40.4275.1
+File7=@OLEAUT32.DLL,$(WinSysPathSysFile),$(DLLSelfRegister),,4/11/00 11:00:00 PM,598288,2.40.4275.1
+File8=@msvbvm60.dll,$(WinSysPathSysFile),$(DLLSelfRegister),,4/14/08 2:30:00 AM,1384479,6.0.98.2
+
+[IconGroups]
+Group0=Medicina del Trabajo
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Medicina del Trabajo]
+Icon1="MedTrabajo.exe"
+Title1=Medicina del Trabajo
+StartIn1=$(AppPath)
+
+[Setup]
+Title=Medicina del Trabajo
+DefaultDir=$(ProgramFiles)\Proyecto1
+AppExe=MedTrabajo.exe
+AppToUninstall=MedTrabajo.exe
+
+[Setup1 Files]
+File1=@MSVCRT.DLL,$(WinSysPathSysFile),,,2/16/04 11:00:00 PM,278581,6.0.9782.0
+File2=@mfc42.dll,$(WinSysPathSysFile),$(DLLSelfRegister),,4/14/08 2:30:00 AM,1028096,6.2.4131.0
+File3=@SSform32.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),8/22/97 12:02:00 AM,168984,2.0.2.6
+File4=@ssdock32.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),8/22/97 12:02:00 AM,223256,2.0.2.6
+File5=@ssprn32.dll,$(WinSysPath),$(DLLSelfRegister),$(Shared),5/6/98 2:59:56 PM,72192,1.0.0.34
+File6=@ssmedt32.dll,$(WinSysPath),$(DLLSelfRegister),$(Shared),10/26/98 11:07:46 AM,72192,1.0.0.38
+File7=@ssdw3b32.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),11/10/98 4:52:00 PM,850200,3.1.1.5
+File8=@ssr2c.dll,$(WinSysPath),$(DLLSelfRegister),$(Shared),11/5/98 11:35:08 AM,72704,1.0.0.9
+File9=@ssdw3ao.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),11/10/98 10:15:54 AM,559400,3.1.1.2
+File10=@ssdw3a32.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),11/5/98 11:38:52 AM,555800,3.1.1.2
+File11=@SSCALB32.OCX,$(WinSysPath),$(DLLSelfRegister),$(Shared),10/1/98 10:42:02 AM,323872,1.0.6.3
+File12=@sstbars.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),7/14/98 12:54:28 PM,362552,1.0.1.13
+File13=@SSLstBar.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),6/19/98 2:27:56 PM,235976,1.0.1.10
+File14=@MDAC_TYP.EXE,$(AppPath),,,8/6/98 11:00:00 PM,6477888,4.72.3110.0
+File15=@u2lsamp1.dll,$(AppPath),,,11/23/97 10:00:00 AM,27136,0.0.0.0
+File16=@u2lfinra.dll,$(AppPath),,,11/23/97 10:00:00 AM,12288,0.0.0.0
+File17=@u2lexch.dll,$(AppPath),,,11/23/97 10:00:00 AM,36864,0.0.0.0
+File18=@u2lesbse.dll,$(AppPath),,,11/23/97 10:00:00 AM,70656,0.0.0.0
+File19=@u2ldts.dll,$(AppPath),,,11/23/97 10:00:00 AM,38400,0.0.0.0
+File20=@u2lcom.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,150016,1.0.0.3
+File21=@u2lbar.dll,$(AppPath),,,11/23/97 10:00:00 AM,40960,0.0.0.0
+File22=@u2l2000.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,49152,6.0.0.1
+File23=@u25total.dll,$(AppPath),,,11/23/97 10:00:00 AM,59904,0.0.0.0
+File24=@u25store.dll,$(AppPath),,,11/23/97 10:00:00 AM,61440,0.0.0.0
+File25=@u25dts.dll,$(AppPath),,,11/23/97 10:00:00 AM,44544,0.0.0.0
+File26=@u2fxls.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,125952,6.0.0.19
+File27=@u2fwordw.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,118272,6.0.0.9
+File28=@u2fwks.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,57344,5.0.0.0
+File29=@u2ftext.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,112128,6.0.0.9
+File30=@u2fsepv.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,53248,5.0.0.0
+File31=@u2frtf.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,100864,6.0.0.5
+File32=@u2frec.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,49152,1.0.0.1
+File33=@u2frdef.dll,$(AppPath),,,11/23/97 10:00:00 AM,78848,6.0.0.4
+File34=@u2fodbc.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,77824,6.0.0.8
+File35=@u2fhtml.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,223232,6.0.0.61
+File36=@u2fdif.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,53248,5.0.0.0
+File37=@u2fcr.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,97598,5.0.0.0
+File38=@u2dvim.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,87552,6.0.0.7
+File39=@u2dpost.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,66560,5.0.0.1
+File40=@u2dnotes.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,89088,6.0.0.7
+File41=@u2dmapi.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,125901,5.0.0.0
+File42=@u2ddisk.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,45056,5.0.0.0
+File43=@p2swblg.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,166912,6.0.0.2
+File44=@p2strack.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,196096,6.0.0.0
+File45=@p2ssyb10.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,130560,6.0.0.14
+File46=@p2ssql.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,129024,6.0.0.11
+File47=@p2srepl.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,138752,6.0.0.0
+File48=@P2SOUTLK.DLL,$(WinSysPath),,$(Shared),11/23/97 3:00:00 PM,810496,6.0.0.2
+File49=@p2sora7.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,174080,6.0.0.15
+File50=@p2sodbc.dll,$(WinSysPath),,$(Shared),11/23/97 10:00:00 AM,154112,6.0.0.59
+File51=@p2smon.dll,$(WinSysPath),,$(Shared),11/23/97 10:00:00 AM,122880,6.0.0.7
+File52=@p2smapi.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,129024,6.0.0.0
+File53=@P2SIFMX.DLL,$(WinSysPath),,$(Shared),1/24/03 9:42:00 AM,142336,6.0.0.0
+File54=@p2sexsr.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,154112,6.0.0.2
+File55=@p2sevt.dll,$(WinSysPath),,$(Shared),11/23/97 10:00:00 AM,133120,6.0.0.1
+File56=@P2SDB2.DLL,$(WinSysPath),,$(Shared),11/23/97 3:00:00 PM,169984,6.0.0.11
+File57=@p2sacl.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,140800,6.0.0.0
+File58=@P2OESBSE.DLL,$(WinSysPath),,$(Shared),11/23/97 3:00:00 PM,141312,6.0.0.0
+File59=@p2lodbc.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,82432,6.0.0.17
+File60=@p2ixbse.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,222208,6.0.0.1
+File61=@p2irdao.dll,$(WinSysPath),,$(Shared),11/23/97 10:00:00 AM,64000,6.0.0.26
+File62=@p2iract.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,40960,6.0.0.1
+File63=@p2ctdao.dll,$(WinSysPath),,$(Shared),11/23/97 10:00:00 AM,54272,6.0.0.25
+File64=@p2ctbtrv.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,75776,6.0.0.6
+File65=@p2bxbse.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,262144,6.0.0.5
+File66=@p2bdao.dll,$(WinSysPath),,$(Shared),11/23/97 10:00:00 AM,105984,6.0.0.31
+File67=@p2bbtrv.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,94720,6.0.0.6
+File68=@p2bbnd.dll,$(WinSysPath),,$(Shared),11/23/97 10:00:00 AM,36352,6.0.0.1
+File69=@p2bbde.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,135168,6.0.0.7
+File70=@p2bact.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,267264,6.0.0.2
+File71=@crxlat32.dll,$(WinSysPath),,$(Shared),11/23/97 9:00:00 AM,37408,3.0.0.2
+File72=@crpaig32.dll,$(WinSysPath),,$(Shared),11/23/97 10:00:00 AM,183296,5.0.0.1
+File73=@ccsdk32.dll,$(WinSysPath),,$(Shared),7/3/97 12:10:44 PM,860160,1.0.3.0
+File74=@IMPLODE.DLL,$(WinSysPath),,$(Shared),11/17/96 11:00:00 PM,18944,1.0.0.1
+File75=@crpe32.dll,$(WinSysPath),,$(Shared),11/23/97 10:00:00 AM,3572224,6.0.1.135
+File76=@crystl32.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),11/23/97 10:00:00 AM,991476,6.0.0.607
+File77=@sstabs32.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),8/22/97 12:02:00 AM,475168,2.0.2.6
+File78=@ssdw3bo.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),11/10/98 3:53:18 PM,857896,3.1.1.5
+File79=@SSTree.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),3/11/98 11:01:00 PM,291872,1.0.1.1
+File80=@ValeText.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),8/30/10 5:11:17 PM,49152,1.0.0.0
+File81=@ADODCES.DLL,$(WinSysPath),,$(Shared),7/27/98 11:00:00 PM,15872,6.0.81.63
+File82=@STDFTES.DLL,$(WinSysPath),,$(Shared),7/30/98 11:00:00 PM,6656,6.0.81.63
+File83=@MSSTDFMT.DLL,$(WinSysPath),$(DLLSelfRegister),$(Shared),2/22/04 11:00:00 PM,119808,6.1.97.82
+File84=@MSADODC.OCX,$(WinSysPath),$(DLLSelfRegister),$(Shared),3/8/04 11:00:00 PM,131856,6.1.97.82
+File85=@SSCALA32.OCX,$(WinSysPath),$(DLLSelfRegister),$(Shared),10/1/98 9:43:58 AM,684832,1.0.6.3
+File86=@ssa3d30.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),11/10/98 7:46:08 AM,328480,3.0.0.34
+File87=@MSBIND.DLL,$(WinSysPath),$(DLLSelfRegister),$(Shared),2/22/04 11:00:00 PM,78848,6.1.97.82
+File88=@odbcconf.dll,$(AppPath),,,4/14/08 2:30:00 AM,135168,3.525.1132.0
+File89=@MedTrabajo.exe,$(AppPath),,,3/2/20 9:27:38 AM,3416064,1.0.0.0
+
+; Puede eliminar las siguientes líneas para obtener espacio adicional 
+; con el fin de personalizar este archivo en un disco de instalación completa.
+; 
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
